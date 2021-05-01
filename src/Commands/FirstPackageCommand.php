@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace LovecodingGit\FirstPackage\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FirstPackageCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'first-package';
 
     public $description = 'My command';
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace LovecodingGit\FirstPackage\Tests;
 
 class ExampleTest extends TestCase
 {

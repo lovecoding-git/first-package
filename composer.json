@@ -1,17 +1,17 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "lovecoding-git/first-package",
+    "description": "This is my package FirstPackage",
     "keywords": [
-        ":vendor_name",
+        "lovecoding-git",
         "laravel",
-        "package_slug"
+        "first-package"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/lovecoding-git/first-package",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Love Coding",
+            "email": "fedde198212@gmail.com",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "LovecodingGit\\FirstPackage\\": "src",
+            "LovecodingGit\\FirstPackage\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "LovecodingGit\\FirstPackage\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "LovecodingGit\\FirstPackage\\FirstPackageServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "FirstPackage": "LovecodingGit\\FirstPackage\\FirstPackageFacade"
             }
         }
     },
