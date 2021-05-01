@@ -2,9 +2,9 @@
 
 namespace LovecodingGit\FirstPackage;
 
+use LovecodingGit\FirstPackage\Commands\FirstPackageCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use LovecodingGit\FirstPackage\Commands\FirstPackageCommand;
 
 class FirstPackageServiceProvider extends PackageServiceProvider
 {
